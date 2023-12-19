@@ -1,0 +1,450 @@
+/*layour for top bar*/
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+.header{
+    border-bottom: 1px solid grey;
+    top:0px;
+    position: sticky;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right:0px;
+    padding-right: 20px;
+}
+.flex{
+  display:flex;
+}
+.top-right{
+    align-items: center;
+    color: #1a202c;
+    justify-content: flex-end;
+    line-height:24px;
+    padding: 0px 30px 0px 0px;
+}
+.my-search{
+    width: 1143px;
+    height: 43px;
+    background-color: #fafafa ;
+    border-color: #cfcfcf;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #0f0f0f;
+    line-height: 24px;
+    display:inline-block;
+    padding:0px 16px 0px 45px;
+}
+
+.browse{
+    list-style-type: none;
+    color: #242424;
+    font-weight:500;
+    line-height:24px;
+    padding:8px;
+    text-align: left;
+    text-transform:capitalize;
+}
+.news{
+    list-style-type: none;
+    color: #242424;
+    font-weight:500;
+    line-height:24px;
+    padding:8px;
+    text-align:left;
+    text-transform:capitalize;
+}
+.about{
+    list-style-type: none;
+    color: #242424;
+    font-weight:500;
+    line-height:24px;
+    padding:8px;
+    text-align:left;
+    text-transform:capitalize;
+}
+.help{
+    list-style-type: none;
+    color: #242424;
+    font-weight:500;
+    line-height:24px;
+    padding:8px;
+    text-align:left;
+    text-transform:capitalize;
+}
+.login{
+    list-style-type: none;
+    color: #242424;
+    font-weight:500;
+    line-height:24px;
+    padding:8px;
+    text-align:left;
+    text-transform:capitalize;
+}
+.sign-up{
+    list-style-type: none;
+    color: #242424;
+    font-weight:500;
+    line-height:24px;
+    padding:8px;
+    text-align:left;
+    text-transform:capitalize;
+}
+.sell{
+    list-style-type: none;
+    color: #242424;
+    font-weight:600;
+    line-height:22px;
+    padding:8px;
+    text-align:left;
+    text-transform:capitalize;
+    border-color: #242424;
+    border-radius: 20px;
+    border-style:solid;
+    border-width:1px;
+    display:inline-block;
+    padding:5px 15px;
+
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.buttons{
+    width:400px;
+    height:90px;
+    display:flex;
+    align-items: center;
+    color: #1a202c;
+    justify-content: flex-end;
+    line-height: 24px ;
+    padding: 0px, 30px, 0px, 0px;
+}
+.b-header{
+    align-items:flex-start;
+    color:#1a202c;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    line-height:24px;
+    margin:0px 366.5px;
+
+}
+h1{
+    width:200px;
+    height:200px;
+    position: absolute;
+    font-size:56px;
+    line-height:84px;
+    margin-top: 75px;
+    margin-left: 45px;
+    font-weight: lighter;
+    color:#1a202c;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    
+}
+.imageText{
+    position:absolute;
+    font-size:18px;
+    line-height:27px;
+    color:#1a202c;
+    margin-left: 45px;
+    margin-top: 115px;
+    width: 435px;
+}
+
+.main{
+    color:#1a202c;
+    display: grid;
+    gap: 24px;
+    grid-template-rows: 2699.94px;
+    grid-template-columns: 208.391px 208.391px 208.391px 208.391px 208.391px;
+    line-height: 24px;
+    margin:40px 400px 24px;
+    width:1138px;
+    height:2700px;
+}
+.interaction{
+    color:#1a202c;
+    line-height: 24px;
+}
+.sec-one{
+    width:193px;
+    height: 216px;
+    color:#1a202c;
+    line-height:24px;
+    margin:0px,0px,32px;
+    padding-bottom: 30px;
+}
+.sec-two{
+    color:#1a202c;
+    line-height:24px;
+    margin:0px 0px 32px;
+    padding-top: 30px;
+}
+.sec-three{
+    width:193px;
+    height:205px;
+    color:#1a202c;
+    line-height:24px;
+    margin:0px 0px 32px;
+}
+.sec-four{
+    width:193px;
+    height:395px;
+    line-height: 24px;
+    margin:0px 0px 32px;
+}
+h3{
+color: #1a202c;
+font-family: 'IBM Plex Sans', sans-serif; 
+font-weight:600;
+letter-spacing: 1px;
+line-height:24px;
+margin:0px 0px 8px;
+text-transform: uppercase;
+}
+h3:hover{
+    color:#006340;
+}
+.grid-container{
+color:#1a202c;
+display:grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto;
+gap:4px, 10px;
+line-height: 24px;          
+width: 193px;
+height: 364px;
+}
+.grid-item{
+    width:40px;
+    height:32px;
+    align-items:center;
+    background-color: #fafafa;
+    border-color:#a1a5a4;
+    border-style: solid;
+    border-width:1px;
+    color:#242424;
+    display:flex;
+    justify-content:center;
+    line-height:24px;
+    margin:0px 0px 10px;
+}
+.grid-item:hover{
+    background-color: black;
+    color:#fafafa;
+}
+
+
+.span{
+width:38px;
+height:18px;
+color: #242424;
+font-size:12px;
+font-weight:700;
+line-height:18px;
+text-align: center;
+}
+.sec-five{
+    width: 193px;
+    height: 234px;
+    color:#1a202c;
+    line-height:24px;
+    margin:0px 0px 32px;
+}
+.breadcrumbs{
+    font-size: 12px;
+    text-align: left;
+}
+.sneakercrumb:hover{
+    text-decoration: underline;
+}
+.homecrumb:hover{
+    text-decoration: underline;
+}
+.rightBrowse{
+    width: 906px;
+    height:48px;
+    color:#1a202c;
+    display: flex;
+    justify-content: space-between;
+    line-height:24px;
+    margin-bottom: 24px;
+    margin-left: -40px;
+    padding:0px 8px 0px 0px;
+}
+
+.sortBy{
+    width:215px;
+    height:35px;
+    align-items: center;
+    border-color: #cfcfcf;
+    border-style:solid;
+    border-width: 1.5px;
+    color:#1a202c;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-evenly;
+    line-height: 21px;
+    margin:0px 20px 0px 8px;
+    padding: 8px;
+}
+
+.componentLayout{
+    width:210px;
+    color:#1a202c;
+    line-height:24px;
+    padding:0px 8px 16px;
+}
+.componentContainer{
+    width:906;
+    height:2700px;
+}
+.componentOutline{
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto;
+gap:6px;
+margin-top: 10px;
+}
+.componentOne{
+    border-color:#ededed;
+    border-style:solid;
+    border-width: 1.11111px;
+    display:flex;
+    flex-direction:column;
+    line-height:24px;
+    grid-area:auto,auto,auto,auto;
+}
+.imageLayout{
+    width:176px;
+    height:75px;
+    line-height:24px;
+    margin:16px;
+}
+.bottomComponent{
+    height:134px;
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+    line-height: 24px;
+    padding:0px 16px 16px 16px;
+    text-align: left;
+}
+.lowestAsk{
+    width:170px;
+    height:46px;
+    line-height: 24px;
+    text-align: left;
+}
+.shoePrice{
+width: 146px;
+height:26px;
+color:#0f0f0f;
+font-weight: bolder;
+font-size:20px;
+letter-spacing:0.064px;
+line-height:26px;
+text-align: left;
+margin: 0px;
+}
+.eachfooter-ul{
+    padding:0px;
+}
+.yeezy{
+    padding:2px 0px 0px 0px;
+}
+.lowest{
+    width: 146px;
+    height:16px;
+    color: #5f5f5f;
+    font-size:12px;
+    letter-spacing:0.064px;
+    line-height:15.6px;
+    margin:4px 0px 0px;
+    text-align:left;
+    text-transform:capitalize;
+}
+
+footer{
+    width: 1887px;
+    height:490px;
+    background-color:#242424;
+    color:#1a202c;
+    line-height:24px;
+    padding:32px 32px 0px;
+}
+.footerMaterial{
+    width:1296px;
+    height:458px;
+    color:#1a202c;
+    line-height:24px;
+    margin:0px 360px;
+}
+h2{
+    width:1296px;
+    height:41px;
+    color:#ffffff;
+    font-size: 32px;
+    font-weight:500;
+    line-height:40.7px;
+    margin:0px 0px 28px;
+}
+.list-container{
+    width:1208px;
+    height: 200px;
+    color:#1a202c;
+    display:grid;
+    gap:24px;
+    grid-template-columns: 196px 196px 196px 196px 196px 196px;
+    grid-template-rows: 168px;
+    line-height:24px;
+}
+.main-brands{
+    color:#ffffff;
+    display:inline;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:0.064px;
+    line-height:16px;
+    text-align:left;
+}
+.brands{
+    color:#ffffff;
+    display:inline;
+    font-size:12px;
+    letter-spacing:0.064px;
+    line-height:16px;
+    text-align:left;
+}
+.layoutBrands{
+color:#1a202c;
+display: list-item;
+font-size:14px;
+font-weight:700;
+letter-spacing:0.064px;
+line-height:16px;
+margin:0px 0px 8px;
+text-align: left;
+list-style: none;
+}
+
+.main-brands:hover{
+    text-decoration: underline;
+}
+.brands:hover{
+    text-decoration: underline;
+}
+.hr{
+    color:#cfcfcf;
+    line-height: 24px;
+    margin:0px 0px 24px;
+    padding:24px 0px 0px;
+}
